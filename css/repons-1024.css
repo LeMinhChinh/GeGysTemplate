@@ -1,0 +1,217 @@
+@media only screen and (max-width:1024px){
+    .user li.action-user{
+        margin-left: 5px;
+    }
+    
+    .user li.money{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    .sort-down{
+        margin-left:5px;
+    }
+
+    .menu li a
+    {
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: bold;
+        padding: 10px;
+        color: black;
+    }
+
+    .img-hot{
+        position: absolute;
+        margin-top: -17px;
+        margin-left: 20px;
+    }
+
+    .introding-text{
+        position: relative;
+        margin-top:-280px;
+    }
+
+    .follow-me ul{
+        list-style-type:none;
+        margin-top: 30px;
+        margin-left:20px;
+    }
+
+    .follow-me{
+        margin-left: -20px;
+    }
+
+    main{
+        margin-top: 210px;
+    }
+
+    .feature-collection p.ft-weather{
+        font-size: 9px;
+        font-weight: bold;
+        line-height: 8px;
+    }
+ 
+    .feature-collection p.ft-gender{
+        font-size: 8px;
+        font-weight: bold;
+        color: rgb(163, 159, 159);  
+        letter-spacing: 2px;
+    }
+
+    .desc-top {
+        margin-top: -70px;
+        margin-left: 20px;
+        position: absolute;
+    }
+
+    .desc-down {
+        margin-top: -165px;
+        margin-left: 15px;
+        position: absolute;
+    }
+
+    .img-add {
+        width: 80px !important;
+        height: 80px !important;
+        position: absolute;
+        margin-top: -135px;
+        margin-left: 45px;
+    }
+
+    .collect-hover:hover .img-add{
+        display: block;
+    }
+
+    .featute-product ul{
+        margin-left: 205px;
+    }
+
+    .line-goto{
+        border: 1px solid rgb(163, 159, 159);
+        width: 85px;
+        margin: 0 0 120px 390px;
+    }
+
+    .info-title{
+        font-size: 9px;
+        font-weight: 700;
+    }
+    
+    .info-desc{
+        font-size: 8px;
+        color: rgb(163, 159, 159); 
+        font-weight: 500;
+    }
+
+    .ft-lookbook img{
+        width: 100%;
+    }
+
+    .lk-desc{
+        margin-top:-235px;
+        position: relative;
+    }
+
+    .lk-desc p.inspi{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .lk-desc p.newin{
+        text-align: center;
+        font-size: 9px;
+        font-weight: bold;
+        margin-top: -12px;
+        letter-spacing: 1px;
+    }
+
+    .lk-desc button.viewlook{
+        margin-top: 10px;
+        margin-left: 337px;
+        width: 190px;
+        height: 50px;
+        background-color: rgb(241, 77, 12);
+        border-radius: 25px;
+        border: none;
+        font-weight: bold;
+        font-size: 11px;
+        color: #fff;
+        letter-spacing: 2px;
+    }
+
+    .newsletter p.newlt{
+        font-size: 10px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        color: rgb(163, 159, 159);  
+        line-height: 10px;
+    }
+    
+    .newsletter p.getDisc{
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    
+    .newsletter p.getNotifi{
+        font-size: 9px;
+        font-weight: bold;
+        color: rgb(163, 159, 159); 
+        margin-top: -5px;
+    }
+
+    .cp-right p{
+        font-size: 7px;
+        font-weight: 600;
+        color: rgb(163, 159, 159); 
+    }
+    
+    .about-us p,
+    .contact p
+    {
+        font-size: 8px;
+        line-height: 10px;
+        font-weight: 500;
+    }
+
+    .follows p{
+        font-size: 12px;
+        line-height: 10px;
+        font-weight: 800;
+    }
+    
+    .follows li{
+        display: inline-block;
+        padding: 7px;
+    }
+
+    .ft-img{
+        margin-right: 25px;
+    }
+
+    .name,.price
+    {
+        font-size: 10px;
+        font-weight: bold;
+    }
+    
+    .img-sale,
+    .img-news{
+        position: absolute;
+        top: 30px;
+        right: 15px;
+    }
+
+    .product{
+        width: 255px;
+        float: left;
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .pr-right{
+        margin-right: 20px;
+    }    
+}

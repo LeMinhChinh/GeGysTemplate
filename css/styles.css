@@ -1,0 +1,534 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Alatsi', sans-serif;
+}
+
+header,main,footer{
+    margin:35px 80px;   
+}
+
+.s-menu{
+    padding-left:70px;
+}
+
+.f-search{
+    padding-left: 157px;
+}
+
+/* search */
+
+.search{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.search:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* menu */
+
+.menu{
+    margin-top: 60px;
+}
+
+.user{
+    margin-left: -45px;
+}
+
+.user li,
+.menu li
+{
+    display: inline-block;
+}
+
+.menu li a
+{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+}
+
+.img-hot{
+    position: absolute;
+    margin-top: -17px;
+    margin-left: 30px;
+}
+
+/* user */
+
+.user li.action-user{
+    margin-left: 30px;
+}
+
+.user li.money{
+    margin-left: 25px;
+    margin-right: 30px;
+}
+
+.user li a
+{
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+.sort-down{
+    margin-left:11px;
+}
+
+/* introding */
+
+.introding-img img{
+    width:100%;
+    margin: 45px 0 0 0;
+}
+
+.introding-text{
+    position: relative;
+    margin-top:-395px;
+}
+
+.follow-me ul{
+    list-style-type:none;
+    margin-top: 30px;
+    margin-left:20px;
+}
+
+.follow-me li{
+    line-height: 35px;
+}
+
+.follow-me a{
+    color: rgb(163, 159, 159);
+}
+
+.title p{
+    color:rgb(241, 150, 12);
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.title h2{
+    font-weight: bold;
+    font-family: 'Calistoga', cursive;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.shopnow{
+    border-radius: 25px;
+    border:1px solid black;
+    width:165px;
+    height:50px;
+    margin-top:25px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.shopnow p{
+    color: black !important;
+    margin-top: 13px;
+}
+
+.active-img{
+    font-size:10px;
+    font-weight: 600;
+    padding:10px 0;
+}
+
+/* main */
+
+main{
+    margin-top: 310px;
+}
+
+/* featur-collection */
+
+.feature-collection p.ft-welcome{
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(163, 159, 159);
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.feature-collection p.ft-title-1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.feature-collection p.ft-title-2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -17px;
+}
+
+.feature-collection p.ft-weather{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 10px;
+}
+
+.feature-collection p.ft-gender{
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(163, 159, 159);
+    margin-top: 5px;
+    line-height: 10px;
+    letter-spacing: 2px;
+}
+
+.collect-hover:hover p.ft-weather{
+    color: rgb(241, 150, 12);
+}
+
+.desc-top {
+    margin-top: -95px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.desc-down {
+    margin-top: -240px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.feature-up{
+    margin-top: 50px;
+}
+
+.feature-down{
+    margin-top: 5px;
+}
+
+.feature-up img{
+    width: 100%;
+    margin:10px 0;
+}
+
+.feature-down img{
+    width: 100%;
+}
+
+.img-add {
+    width: 80px !important;
+    height: 80px !important;
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 100px;
+    display: none;
+}
+
+.collect-hover:hover .img-add{
+    display: block;
+}
+
+.featute-product p.ft-title{
+    margin-top: 85px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.featute-product ul{
+    margin-left: 475px;
+}
+
+.featute-product li{
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.featute-product a{
+    text-decoration: none;
+    color: rgb(163, 159, 159);
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.featute-product a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.product{
+    width: 255px;
+    float: left;
+    position: relative;
+}
+
+.pr-right{
+    margin-right: 20px;
+}
+
+.featute-product img.img-pr{
+    width: 100%;
+}
+
+.img-sale,
+.img-news{
+    position: absolute;
+    top: 30px;
+    right: 15px;
+}
+
+.name,
+.price
+{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.product:hover
+{
+    box-shadow: 5px 5px 5px 5px rgb(185, 184, 184);
+}
+
+.name-hover{
+    display: block;
+    color: black !important;
+    margin-left: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.action{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+
+.img-action{
+    margin-bottom: 22px;
+}
+
+.product:hover .action{
+    display: block;
+    background-color: #fff;
+}
+
+.img-action-1,
+.img-action-2,
+.img-action-3{
+    margin-right: 12px;
+}
+
+.img-color-1{
+    margin-left: 30px;
+}
+
+.img-color-2,
+.img-color-3{
+    margin-left: 5px;
+}
+
+/* clear */
+
+.clear{
+    clear: both;
+}
+
+/* lookbook */
+
+.ft-lookbook p.goto{
+    text-align: center;
+    margin: 105px 0 0 0;
+    font-weight: bold;
+    font-size: 14px;
+    color:  rgb(163, 159, 159);
+}
+
+.line-goto{
+    border: 1px solid rgb(163, 159, 159);
+    width: 85px;
+    margin: 1px 0 120px 638px;
+}
+
+.lk-img{
+    width: 100%;
+}
+
+.lk-desc{
+    margin-top:-350px;
+    position: relative;
+}
+
+.lk-desc p.inspi{
+    text-align: center;
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.lk-desc p.newin{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 7px;
+    letter-spacing: 1px;
+}
+
+.lk-desc button.viewlook{
+    margin-top: 20px;
+    margin-left: 585px;
+    width: 190px;
+    height: 50px;
+    background-color: rgb(241, 77, 12);
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    font-size: 11px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+/* info services */
+
+.infoservices{
+    margin-top: 290px;
+}
+
+.infoservices i{
+    font-size: 40px;
+}
+
+.infoservices p{
+    line-height: 10px;
+}
+
+.infoservices a{
+    text-decoration: none;
+    color:black;
+}
+
+.infoservices a:hover{
+    text-decoration: none;
+    color:black;
+}
+
+.info-title{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.info-desc{
+    font-size: 10px;
+    color: rgb(163, 159, 159); 
+    font-weight: 500;
+}
+
+/* newletter */
+
+.newsletter{
+    margin-top: 100px;
+}
+
+.newsletter p.newlt{
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: rgb(163, 159, 159);  
+    line-height: 10px;
+}
+
+.newsletter p.getDisc{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.newsletter p.getNotifi{
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(163, 159, 159); 
+    margin-top: -5px;
+}
+
+.send-mail{
+    margin-top: 40px;
+}
+
+.send-mail button{
+    border-radius: 25px;
+    background-color: black;
+    width: 130px;
+    height: 45px;
+    color: #fff; 
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;   
+}
+.send-mail input{
+    border-radius: 25px;
+    height: 45px;
+    background-color: rgb(223, 247, 253);
+}
+
+.send-mail input:active{
+    border: none;
+}
+
+/* footer */
+
+footer,.info-us{
+    margin-top: 60px;
+}
+
+.cp-right p{
+    font-size:13px;
+    font-weight: 600;
+    color: rgb(163, 159, 159); 
+}
+
+.about-us p,
+.contact p
+{
+    font-size: 13px;
+    line-height: 10px;
+    font-weight: 500;
+}
+
+.contact a{
+    color: black;
+}
+
+.contact a:hover{
+    text-decoration: none;
+}
+
+.follows p{
+    font-size: 13px;
+    line-height: 10px;
+    font-weight: 800;
+}
+
+.follows ul{
+    list-style-type: none;
+    margin-left: -50px;
+}
+
+.follows li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.follows a{
+    color: rgb(163, 159, 159); 
+}
