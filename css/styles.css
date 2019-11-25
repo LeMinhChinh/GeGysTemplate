@@ -4,12 +4,8 @@ body{
     font-family: 'Alatsi', sans-serif;
 }
 
-header,main,footer{
-    margin:35px 80px;   
-}
-
-.s-menu{
-    padding-left:70px;
+header{
+    margin:35px 80px 0 80px;   
 }
 
 .f-search{
@@ -21,15 +17,13 @@ header,main,footer{
 .search{
     text-decoration: none;
     color: black;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
 }
 
 .search:hover{
     text-decoration: none;
     color: black;
-    font-size: 15px;
-    font-weight: bold;
 }
 
 /* menu */
@@ -51,7 +45,7 @@ header,main,footer{
 .menu li a
 {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
     padding: 10px;
     color: black;
@@ -77,7 +71,7 @@ header,main,footer{
 .user li a
 {
     text-decoration: none;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     color: black;
 }
@@ -87,15 +81,19 @@ header,main,footer{
 }
 
 /* introding */
+.slide{
+    margin: 20px 80px 0 80px;
+    position: relative;
+}
 
 .introding-img img{
     width:100%;
-    margin: 45px 0 0 0;
 }
 
 .introding-text{
-    position: relative;
-    margin-top:-395px;
+    position: absolute;
+    width: 100%;
+    bottom: 175px;
 }
 
 .follow-me ul{
@@ -113,7 +111,7 @@ header,main,footer{
 }
 
 .title p{
-    color:rgb(241, 150, 12);
+    color:#f6663f;
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 4px;
@@ -148,89 +146,77 @@ header,main,footer{
     padding:10px 0;
 }
 
-/* main */
-
-main{
-    margin-top: 310px;
+/* feature-collection */
+.collection{
+    margin-top: 129px;
 }
 
-/* featur-collection */
-
-.feature-collection p.ft-welcome{
-    font-size: 13px;
+.ft-welcome{
+    font-size: 12px;
     font-weight: bold;
-    color: rgb(163, 159, 159);
+    color: #898989;
     text-align: center;
     letter-spacing: 2px;
+    line-height: 10px;
 }
 
-.feature-collection p.ft-title-1{
+.ft-title{
     font-weight: bold;
     text-align: center;
-    font-size: 30px;
+    font-size: 32px;
+    line-height: 47px;
+    margin-top: 30px;
 }
 
-.feature-collection p.ft-title-2{
-    font-weight: bold;
-    text-align: center;
-    font-size: 30px;
-    margin-top: -17px;
+.collection img{
+    width: 100%;
 }
 
-.feature-collection p.ft-weather{
-    font-size: 14px;
+.feature-up{
+    margin-top: 70px;
+    position: relative;
+}
+
+.desc-top {
+    position: absolute;
+    left: 65px;
+    bottom: 50px;
+}
+
+.feature-down{
+    margin-top: 15px;
+    position: relative;
+}
+
+.desc-down {
+    position: absolute;
+    top: 50px;
+    left: 65px;
+}
+
+.ft-weather{
+    font-size: 18px;
     font-weight: bold;
     line-height: 10px;
 }
 
-.feature-collection p.ft-gender{
-    font-size: 10px;
+.ft-gender{
+    font-size: 12px;
     font-weight: bold;
-    color: rgb(163, 159, 159);
+    color: #898989;
     margin-top: 5px;
     line-height: 10px;
     letter-spacing: 2px;
 }
 
 .collect-hover:hover p.ft-weather{
-    color: rgb(241, 150, 12);
+    color:#f6663f;
 }
 
-.desc-top {
-    margin-top: -95px;
-    margin-left: 40px;
+.img-add{
     position: absolute;
-}
-
-.desc-down {
-    margin-top: -240px;
-    margin-left: 40px;
-    position: absolute;
-}
-
-.feature-up{
-    margin-top: 50px;
-}
-
-.feature-down{
-    margin-top: 5px;
-}
-
-.feature-up img{
-    width: 100%;
-    margin:10px 0;
-}
-
-.feature-down img{
-    width: 100%;
-}
-
-.img-add {
-    width: 80px !important;
-    height: 80px !important;
-    position: absolute;
-    margin-top: -190px;
-    margin-left: 100px;
+    left: 150px;
+    top: 160px;
     display: none;
 }
 
@@ -238,32 +224,37 @@ main{
     display: block;
 }
 
-.featute-product p.ft-title{
-    margin-top: 85px;
-    font-size: 30px;
+/* feature product */
+.cate-product{
+    margin: 70px 80px 0 80px;
+}
+
+.pr-title{
+    font-size: 36px;
     font-weight: bold;
     text-align: center;
+    line-height: 40px;
 }
 
-.featute-product ul{
-    margin-left: 475px;
-}
-
-.featute-product li{
+.cate li{
     display: inline-block;
-    padding: 5px 10px;
+    margin: 10px 20px 0 0;
 }
 
-.featute-product a{
+.cate a{
     text-decoration: none;
-    color: rgb(163, 159, 159);
-    font-size: 11px;
+    color: #898989;
+    font-size: 12px;
     font-weight: bold;
 }
 
-.featute-product a:hover{
+.cate a:hover{
     text-decoration: none;
     color: black;
+}
+
+.list-pr{
+    margin-top: 50px;
 }
 
 .product{
@@ -273,10 +264,10 @@ main{
 }
 
 .pr-right{
-    margin-right: 20px;
+    margin-right: 21px;
 }
 
-.featute-product img.img-pr{
+.product img.img-pr{
     width: 100%;
 }
 
@@ -287,12 +278,19 @@ main{
     right: 15px;
 }
 
-.name,
-.price
-{
-    font-size: 13px;
+.name{
+    font-size: 15px;
     font-weight: bold;
-    margin-top: 20px;
+    color: #898989;
+    line-height: 48px;
+    margin-top: 5px;
+}
+
+.price{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 28px;
+    margin-top: -23px;
 }
 
 .product:hover
@@ -300,13 +298,17 @@ main{
     box-shadow: 5px 5px 5px 5px rgb(185, 184, 184);
 }
 
-.name-hover{
+.add-cart{
     display: block;
     color: black !important;
     margin-left: 30px;
     font-size: 13px;
     font-weight: 700;
     margin-bottom: 20px;
+}
+
+.add-cart:hover{
+    text-decoration: none;
 }
 
 .action{
@@ -347,37 +349,48 @@ main{
 }
 
 /* lookbook */
+.lookbook{
+    margin: -35px 80px;
+    /* position: relative; */
+}
 
-.ft-lookbook p.goto{
+.goto{
     text-align: center;
     margin: 105px 0 0 0;
     font-weight: bold;
-    font-size: 14px;
-    color:  rgb(163, 159, 159);
+    font-size: 12px;
+    line-height: 32px;
+    color:  #898989;
+    letter-spacing: 1px;
 }
 
 .line-goto{
-    border: 1px solid rgb(163, 159, 159);
+    border-bottom: 2px solid #898989;
     width: 85px;
-    margin: 1px 0 120px 638px;
+    margin: -4px 0 0 38px;
+}
+
+.lk-img img{
+    width: 100%;
+    margin-top: 121px;
 }
 
 .lk-img{
-    width: 100%;
-}
-
-.lk-desc{
-    margin-top:-350px;
     position: relative;
 }
 
-.lk-desc p.inspi{
+.lk-desc{
+    bottom: 0;
+    position: absolute;
+}
+
+.inspi{
     text-align: center;
-    font-size: 43px;
+    font-size: 60px;
     font-weight: bold;
 }
 
-.lk-desc p.newin{
+.newin{
     text-align: center;
     font-size: 10px;
     font-weight: bold;
@@ -385,12 +398,12 @@ main{
     letter-spacing: 1px;
 }
 
-.lk-desc button.viewlook{
-    margin-top: 20px;
-    margin-left: 585px;
+.viewlook{
+    /* margin-top: 20px;
+    margin-left: 585px; */
     width: 190px;
     height: 50px;
-    background-color: rgb(241, 77, 12);
+    background-color:#f6663f;;
     border-radius: 25px;
     border: none;
     font-weight: bold;
