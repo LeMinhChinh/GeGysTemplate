@@ -1,7 +1,6 @@
 body{
     padding: 0;
     margin: 0;
-    font-family: 'Alatsi', sans-serif;
 }
 
 header{
@@ -9,7 +8,7 @@ header{
 }
 
 .f-search{
-    padding-left: 157px;
+    padding-left: 165px;
 }
 
 /* search */
@@ -30,6 +29,7 @@ header{
 
 .menu{
     margin-top: 60px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .user{
@@ -40,6 +40,7 @@ header{
 .menu li
 {
     display: inline-block;
+    position: relative;
 }
 
 .menu li a
@@ -53,8 +54,9 @@ header{
 
 .img-hot{
     position: absolute;
-    margin-top: -17px;
-    margin-left: 30px;
+    right: 15px;
+    bottom: 25px;
+    display: none;
 }
 
 /* user */
@@ -80,8 +82,14 @@ header{
     margin-left:11px;
 }
 
+/* main */
+
+main{
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* introding */
-.slide{
+.slide-introduce{
     margin: 20px 80px 0 80px;
     position: relative;
 }
@@ -90,16 +98,15 @@ header{
     width:100%;
 }
 
-.introding-text{
+.follow-me{
     position: absolute;
-    width: 100%;
-    bottom: 175px;
+    bottom: 190px;
+    left: 20px;
+    z-index: 1;
 }
 
 .follow-me ul{
     list-style-type:none;
-    margin-top: 30px;
-    margin-left:20px;
 }
 
 .follow-me li{
@@ -107,21 +114,32 @@ header{
 }
 
 .follow-me a{
-    color: rgb(163, 159, 159);
+    color: #898989;
 }
 
-.title p{
+.follow-me a:hover{
+    color: #f6663f; 
+}
+
+.introding-text{
+    max-width: 370px;
+    position: absolute;
+    bottom: 175px;
+    left: 250px;
+    z-index: 1;
+}
+
+.new{
     color:#f6663f;
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 4px;
 }
 
-.title h2{
+.descr{
+    font-size: 36px;
     font-weight: bold;
-    font-family: 'Calistoga', cursive;
-    letter-spacing: 1px;
-    margin-top: 30px;
+    line-height: 46px;
 }
 
 .shopnow{
@@ -129,8 +147,8 @@ header{
     border:1px solid black;
     width:165px;
     height:50px;
-    margin-top:25px;
-    font-size: 13px;
+    margin-top:48px;
+    font-size: 14px;
     font-weight: bold;
     letter-spacing: 1px;
 }
@@ -140,11 +158,42 @@ header{
     margin-top: 13px;
 }
 
-.active-img{
+.carousel-indicators li{
+    text-indent: 0;
+    margin: 33px;
+    background-color: transparent;
+    width: 215px;
+}
+
+
+.carousel-indicators{
+    display: grid;
+    margin: 0 0 180px 1200px;
+}
+
+.carousel-indicators li.active{
+    background-color: transparent;
+}
+
+.carousel-indicators li.active .text-active{
+    display: block;
+}
+
+.text-active{
+    float: left;
+    width: 115px;
     font-size:10px;
     font-weight: 600;
-    padding:10px 0;
+    padding:10px 20px 0 0;
+    color: #898989;
+    text-align: right;
+    display: none;
 }
+.img-active{
+    float: right;
+    width: 100px;
+}
+
 
 /* feature-collection */
 .collection{
@@ -156,14 +205,14 @@ header{
     font-weight: bold;
     color: #898989;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     line-height: 10px;
 }
 
 .ft-title{
     font-weight: bold;
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 47px;
     margin-top: 30px;
 }
@@ -195,7 +244,7 @@ header{
 }
 
 .ft-weather{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     line-height: 10px;
 }
@@ -238,14 +287,14 @@ header{
 
 .cate li{
     display: inline-block;
-    margin: 10px 20px 0 0;
+    margin: 10px 14px 0 0;
 }
 
 .cate a{
     text-decoration: none;
     color: #898989;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .cate a:hover{
@@ -267,9 +316,15 @@ header{
     margin-right: 21px;
 }
 
-.product img.img-pr{
-    width: 100%;
+.img-div{
+    border: 1px solid #f3f3f3;
 }
+
+.img-pr{
+    width: 100%;
+    /* border: 1px solid #f3f3f3; */
+}
+
 
 .img-sale,
 .img-news{
@@ -295,15 +350,19 @@ header{
 
 .product:hover
 {
-    box-shadow: 5px 5px 5px 5px rgb(185, 184, 184);
+    box-shadow: 1px 2px 15px 3px #f6f8fb;
+}
+
+.product:hover .img-div{
+    border: 1px solid transparent;
 }
 
 .add-cart{
     display: block;
     color: black !important;
     margin-left: 30px;
-    font-size: 13px;
-    font-weight: 700;
+    font-size: 12px;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
@@ -351,7 +410,6 @@ header{
 /* lookbook */
 .lookbook{
     margin: -35px 80px;
-    /* position: relative; */
 }
 
 .goto{
@@ -380,8 +438,9 @@ header{
 }
 
 .lk-desc{
-    bottom: 0;
     position: absolute;
+    bottom: 140px;
+    left: 60px;
 }
 
 .inspi{
@@ -392,22 +451,22 @@ header{
 
 .newin{
     text-align: center;
-    font-size: 10px;
-    font-weight: bold;
-    margin-top: 7px;
-    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .viewlook{
-    /* margin-top: 20px;
-    margin-left: 585px; */
-    width: 190px;
-    height: 50px;
+    margin-top: 25px;
+    margin-left: 125px;
+    width: 241px;
+    height: 60px;
     background-color:#f6663f;;
-    border-radius: 25px;
+    border-radius: 30px;
     border: none;
-    font-weight: bold;
-    font-size: 11px;
+    font-weight: 600;
+    font-size: 14px;
     color: #fff;
     letter-spacing: 2px;
 }
@@ -415,11 +474,7 @@ header{
 /* info services */
 
 .infoservices{
-    margin-top: 290px;
-}
-
-.infoservices i{
-    font-size: 40px;
+    margin-top: 155px;
 }
 
 .infoservices p{
@@ -439,84 +494,102 @@ header{
 .info-title{
     font-size: 12px;
     font-weight: 700;
+    letter-spacing: 2px;
 }
 
 .info-desc{
-    font-size: 10px;
-    color: rgb(163, 159, 159); 
+    font-size: 14px;
+    color: #898989; 
     font-weight: 500;
 }
 
 /* newletter */
 
-.newsletter{
-    margin-top: 100px;
+.lettermail{
+    margin-top: 110px;
 }
 
-.newsletter p.newlt{
-    font-size: 13px;
+.a{
+    max-width: 630px;
+}
+
+.newlt{
+    font-size: 12px;
     font-weight: bold;
     letter-spacing: 3px;
-    color: rgb(163, 159, 159);  
-    line-height: 10px;
+    color: #898989;  
+    
 }
 
-.newsletter p.getDisc{
-    font-size: 30px;
+.getDisc{
+    font-size: 36px;
     font-weight: bold;
-    margin-top: 5px;
+    line-height: 58px;
+    margin-top: -15px;
 }
 
-.newsletter p.getNotifi{
-    font-size: 13px;
-    font-weight: bold;
-    color: rgb(163, 159, 159); 
-    margin-top: -5px;
+.getNotifi{
+    font-size: 16px;
+    font-weight: 600;
+    color: #898989; 
+    line-height: 26px;
+    margin-top: -10px;
 }
 
 .send-mail{
-    margin-top: 40px;
+    margin-top: 55px;
 }
 
 .send-mail button{
-    border-radius: 25px;
+    border-radius: 30px;
     background-color: black;
-    width: 130px;
-    height: 45px;
+    width: 161px;
+    height: 60px;
     color: #fff; 
-    font-size: 13px;
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: bold;
     letter-spacing: 1px;   
 }
 .send-mail input{
-    border-radius: 25px;
-    height: 45px;
-    background-color: rgb(223, 247, 253);
-}
-
-.send-mail input:active{
-    border: none;
+    border-radius: 30px;
+    height: 60px;
+    background-color: #eef7f9;
+    font-size: 14px;
+    font-weight: 500;
+    color: #898989;
 }
 
 /* footer */
+footer{
+    margin: 61px 80px 0 80px;
+}
 
-footer,.info-us{
+.info-us{
     margin-top: 60px;
 }
 
 .cp-right p{
-    font-size:13px;
-    font-weight: 600;
-    color: rgb(163, 159, 159); 
+    font-size:14px;
+    font-weight: 500;
+    color: #898989; 
+    margin-top: 32px;
 }
 
-.about-us p,
+.about-us p
+{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
 .contact p
 {
-    font-size: 13px;
-    line-height: 10px;
+    font-size: 15px;
+    line-height: 15px;
     font-weight: 500;
 }
+
 
 .contact a{
     color: black;
@@ -524,12 +597,14 @@ footer,.info-us{
 
 .contact a:hover{
     text-decoration: none;
+    color: #f6663f;
+    padding-left: 30px;
 }
 
 .follows p{
-    font-size: 13px;
+    font-size: 14px;
     line-height: 10px;
-    font-weight: 800;
+    font-weight: bold;
 }
 
 .follows ul{
@@ -543,5 +618,9 @@ footer,.info-us{
 }
 
 .follows a{
-    color: rgb(163, 159, 159); 
+    color: #898989; 
+}
+
+.follows a:hover{
+    color: #f6663f; 
 }
