@@ -1,4 +1,4 @@
-@media only screen and (min-width:769px) and (max-width:1024px){
+@media only screen and (min-width:376px) and (max-width:768px){
     body{
         padding: 0;
         margin: 0;
@@ -28,7 +28,7 @@
     }
 
     .action-user{
-        margin-left: 27px;
+        margin-left: 30px;
     }
 
     .language{
@@ -36,7 +36,7 @@
     }
 
     .money{
-        margin-right: 25px;
+        margin-right: 32px;
     }
 
     .user li a
@@ -56,7 +56,7 @@
     .line-search{
         margin: 13px 0 0 0;
         border-bottom: 1px solid black;
-        width: 215px
+        width: 155px;
     }
 
     .search-text{
@@ -116,7 +116,7 @@
 
     /* introding */
     .slide-introduce{
-        margin: 0 20px;
+        margin:35px 20px 0 20px; 
         position: relative;
     }
 
@@ -127,7 +127,7 @@
     .follow-me{
         position: absolute;
         top: 50%;
-        left: 50px;
+        left: 0;
         z-index: 1;
         transform: translate(0px, -50%);
     }
@@ -178,13 +178,13 @@
 
     .new{
         color:#f6663f;
-        font-size: 13px;
+        font-size: 12px;
         font-weight: bold;
         letter-spacing: 4px;
     }
 
     .descr{
-        font-size: 28px;
+        font-size: 20px;
         font-weight: bold;
         line-height: 35px;
     }
@@ -194,7 +194,7 @@
         border:1px solid black;
         width:165px;
         height:50px;
-        margin-top:48px;
+        margin-top: 60px;
         font-size: 14px;
         font-weight: bold;
         letter-spacing: 1px;
@@ -239,7 +239,7 @@
     .img-active{
         float: right;
         width: 100px;
-        margin-right: -10px;
+        margin-right: -25px;
     }
 
 
@@ -292,13 +292,13 @@
     }
 
     .ft-weather{
-        font-size: 16px;
+        font-size: 12px;
         font-weight: bold;
         line-height: 10px;
     }
 
     .ft-gender{
-        font-size: 12px;
+        font-size: 10px;
         font-weight: bold;
         color: #898989;
         margin-top: 5px;
@@ -312,8 +312,8 @@
 
     .img-add{
         position: absolute;
-        left: 160px;
-        top: 160px;
+        left: 115px;
+        top: 90px;
         display: none;
     }
 
@@ -361,7 +361,7 @@
     }
 
     .product{
-        width: 33%;
+        width: 30%;
         float: left;
         padding-left: 15px;
         padding-right: 15px;
@@ -494,7 +494,7 @@
 
     .inspi{
         text-align: center;
-        font-size: 60px;
+        font-size: 40px;
         font-weight: bold;
     }
 
@@ -511,12 +511,12 @@
         margin-top: 25px;
         margin-left: 145px;
         width: 241px;
-        height: 60px;
-        background-color:#f6663f;;
+        height: 50px;
+        background-color:#f6663f;
         border-radius: 30px;
         border: none;
         font-weight: 600;
-        font-size: 14px;
+        font-size: 12px;
         color: #fff;
         letter-spacing: 2px;
     }
@@ -693,14 +693,14 @@
     ol.carousel-indicators li {
         display: block;
         margin: 6px 0;
-        max-width: 235px;
+        max-width: 205px;
         height: auto;
     }
 
     .slide-small {
         position: absolute;
         top: 0;
-        left: 160px;
+        left: 100px;
         right: 0;
         bottom: 0;
         align-items: center;
@@ -746,7 +746,7 @@
     .list-repons{
         display: none;
     }
-
+    
     .item-info {
         margin: 10px auto;
     }
