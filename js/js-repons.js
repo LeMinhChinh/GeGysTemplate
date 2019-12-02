@@ -1,9 +1,9 @@
 $(document).ready(function(){
     $('.item-menu').click(function(){
-        $('.menu').toggle();
+        $('.menu').slideToggle(150);
     });
 
     $('.item-cate').click(function(){
-        $('.cate').toggle();
+        $('.cate').slideToggle(150);
     });
 });

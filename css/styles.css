@@ -82,7 +82,8 @@ header{
 }
 
 .user{
-    margin-left: -45px;
+    /* margin-left: -45px; */
+    text-align: right;
 }
 
 .user li,
@@ -518,10 +519,10 @@ ul.cate{
 
 .viewlook{
     margin-top: 25px;
-    margin-left: 145px;
+    margin-left: 165px;
     width: 241px;
     height: 60px;
-    background-color:#f6663f;;
+    background-color:#f6663f;
     border-radius: 30px;
     border: none;
     font-weight: 600;
@@ -616,6 +617,7 @@ ul.cate{
     font-size: 14px;
     font-weight: 500;
     color: #898989;
+    padding-left: 30px;
 }
 
 /* footer */
@@ -754,4 +756,8 @@ ol.carousel-indicators li {
 
 .list-repons{
     display: none;
+}
+
+.carousel-indicators p{
+    margin-bottom: 0;
 }

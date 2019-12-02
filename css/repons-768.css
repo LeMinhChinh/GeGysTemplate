@@ -1,4 +1,4 @@
-@media only screen and (min-width:376px) and (max-width:768px){
+@media only screen and (min-width:415px) and (max-width:768px){
     body{
         padding: 0;
         margin: 0;
@@ -56,7 +56,7 @@
     .line-search{
         margin: 13px 0 0 0;
         border-bottom: 1px solid black;
-        width: 155px;
+        width: 215px;
     }
 
     .search-text{
@@ -78,12 +78,12 @@
         font-family: 'Montserrat', sans-serif;
         max-width: 570px;
         width: 100%;
-        margin: 60px auto;
+        margin: 45px auto;
     }
 
-    /* .user{
+    .user{
         margin-left: -45px;
-    } */
+    }
 
     .user li,
     .menu li
@@ -116,7 +116,7 @@
 
     /* introding */
     .slide-introduce{
-        margin:35px 20px 0 20px; 
+        margin: 0 20px 0 20px;
         position: relative;
     }
 
@@ -245,7 +245,7 @@
 
     /* feature-collection */
     .collection{
-        margin-top: 129px;
+        margin-top: 100px;
     }
 
     .ft-welcome{
@@ -509,7 +509,7 @@
 
     .viewlook{
         margin-top: 25px;
-        margin-left: 145px;
+        margin-left: 160px;
         width: 241px;
         height: 50px;
         background-color:#f6663f;
@@ -556,7 +556,7 @@
     /* newletter */
 
     .lettermail{
-        margin-top: 110px;
+        margin-top: 100px;
     }
 
     .a{
@@ -607,11 +607,12 @@
         font-size: 14px;
         font-weight: 500;
         color: #898989;
+        padding-left: 30px;
     }
 
     /* footer */
     footer{
-        margin:35px 20px 60px 20px; 
+        margin: 50px 20px 60px 20px;
     }
 
     .info-us{
@@ -749,5 +750,18 @@
     
     .item-info {
         margin: 10px auto;
+    }
+
+    .order-logo{
+        order: 1;
+    }
+
+    .order-search{
+        order: 3;
+        margin-top: 15px;
+    }
+
+    .order-user{
+        order: 2;
     }
 }
