@@ -63,7 +63,7 @@ header{
     color: black;
     font-size: 13px;
     font-weight: bold;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 .search-text:hover{
@@ -74,7 +74,6 @@ header{
 /* menu */
 
 .menu{
-    /* margin-top: 60px; */
     font-family: 'Montserrat', sans-serif;
     max-width: 570px;
     width: 100%;
@@ -82,7 +81,6 @@ header{
 }
 
 .user{
-    /* margin-left: -45px; */
     text-align: right;
 }
 
@@ -373,7 +371,6 @@ ul.cate{
 .product{
     width: 20%;
     float: left;
-    /* position: relative; */
     padding-left: 15px;
     padding-right: 15px;
 }
