@@ -19,7 +19,7 @@
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/js-repons.js"></script>
+    <script src="js/js-active.js"></script>
     
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
@@ -255,16 +255,16 @@
         <section class="cate-product">
             <div class="category">
                 <p class="pr-title">Featured Product</p>
-                <ul class="cate">
-                    <li><a href="">ALL</a></li>
-                    <li><a href="">WOMEN</a></li>
-                    <li><a href="">MEN</a></li>
-                    <li><a href="">KIDS</a></li>
-                    <li><a href="">ACCESSORIES</a></li>
-                    <li><a href="">SALEOFF</a></li>
+                <ul class="cate" id="myCate">
+                    <li><a href="#all">ALL</a></li>
+                    <li><a href="#women">WOMEN</a></li>
+                    <li><a href="#men">MEN</a></li>
+                    <li><a href="#kids">KIDS</a></li>
+                    <li><a href="#accessories">ACCESSORIES</a></li>
+                    <li><a href="#saleoff">SALEOFF</a></li>
                 </ul>
             </div>
-            <div class="list-pr">
+            <div class="list-pr" id="all">
                 <div class="product">
                         <div class="box-shadow">
                             <div class="img-div">
@@ -399,12 +399,450 @@
                     </div>
                 <div class="clear"></div>
             </div>
+            <div class="list-pr" id="women">
+                <div class="product">
+                        <div class="box-shadow">
+                            <div class="img-div">
+                                    <img src="images/pr-1.jpg" alt="" class="img-pr">
+                                </div>
+                                <p class="name">Jean Women Summer</p>
+                                <p class="price">$ 42.00</p>
+                                <img src="images/sale.png" alt="" class="img-sale">
+                                <div class="action">
+                                    <div class="row">
+                                        <div class="col-6 color">
+                                            <img src="images/img-color-1.png" alt="" class="img-color-1">
+                                            <img src="images/img-color-2.png" alt="" class="img-color-2">
+                                            <img src="images/img-color-3.png" alt="" class="img-color-3">
+                                        </div>
+                                        <div class="col-6 img-action">
+                                            <img src="images/active-hover-2.png" alt="" class="img-action-1">
+                                            <img src="images/active-hover-3.png" alt="" class="img-action-2">    
+                                            <img src="images/active-hover-1.png" alt="" class="img-action-3">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <a href="" class="add-cart">ADD TO CART</a>
+                                    </div>
+                                </div>
+                        </div>
+                </div>
+                <div class="product">
+                <div class="box-shadow">
+                        <div class="img-div">
+                                <img src="images/pr-2.jpg" alt="" class="img-pr">
+                            </div>
+                            <p class="name">Jean Women Summer</p>
+                            <p class="price">$ 42.00</p>
+                            <div class="action">
+                                <div class="row">
+                                    <div class="col-6 color">
+                                        <img src="images/img-color-1.png" alt="" class="img-color-1">
+                                        <img src="images/img-color-2.png" alt="" class="img-color-2">
+                                        <img src="images/img-color-3.png" alt="" class="img-color-3">
+                                    </div>
+                                    <div class="col-6 img-action">
+                                        <img src="images/active-hover-2.png" alt="" class="img-action-1">
+                                        <img src="images/active-hover-3.png" alt="" class="img-action-2">    
+                                        <img src="images/active-hover-1.png" alt="" class="img-action-3">
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href="" class="add-cart">ADD TO CART</a>
+                                </div>
+                        </div>
+                </div>
+                </div>
+                <div class="product">
+                    <div class="box-shadow">
+                        <div class="img-div">
+                            <img src="images/pr-3.jpg" alt="" class="img-pr">
+                        </div>
+                        <p class="name">Jean Women Summer</p>
+                        <p class="price">$ 42.00</p>
+                        <div class="action">
+                            <div class="row">
+                                <div class="col-6 color">
+                                    <img src="images/img-color-1.png" alt="" class="img-color-1">
+                                    <img src="images/img-color-2.png" alt="" class="img-color-2">
+                                    <img src="images/img-color-3.png" alt="" class="img-color-3">
+                                </div>
+                                <div class="col-6 img-action">
+                                    <img src="images/active-hover-2.png" alt="" class="img-action-1">
+                                    <img src="images/active-hover-3.png" alt="" class="img-action-2">    
+                                    <img src="images/active-hover-1.png" alt="" class="img-action-3">
+                                </div>
+                            </div>
+                            <div>
+                                <a href="" class="add-cart">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="box-shadow">
+                        <div class="img-div">
+                            <img src="images/product-4.png" alt="" class="img-pr">
+                        </div>
+                        <p class="name">Jean Women Summer</p>
+                        <p class="price">$ 42.00</p>
+                        <div class="action">
+                            <div class="row">
+                                <div class="col-6 color">
+                                    <img src="images/img-color-1.png" alt="" class="img-color-1">
+                                    <img src="images/img-color-2.png" alt="" class="img-color-2">
+                                    <img src="images/img-color-3.png" alt="" class="img-color-3">
+                                </div>
+                                <div class="col-6 img-action">
+                                    <img src="images/active-hover-2.png" alt="" class="img-action-1">
+                                    <img src="images/active-hover-3.png" alt="" class="img-action-2">    
+                                    <img src="images/active-hover-1.png" alt="" class="img-action-3">
+                                </div>
+                            </div>
+                            <div>
+                                <a href="" class="add-cart">ADD TO CART</a>
+                            </div>
+                        </div>
+                        <img src="images/new.png" alt="" class="img-news">
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="list-pr" id="men">
+                <div class="product">
+                        <div class="box-shadow">
+                            <div class="img-div">
+                                    <img src="images/pr-1.jpg" alt="" class="img-pr">
+                                </div>
+                                <p class="name">Jean Women Summer</p>
+                                <p class="price">$ 42.00</p>
+                                <img src="images/sale.png" alt="" class="img-sale">
+                                <div class="action">
+                                    <div class="row">
+                                        <div class="col-6 color">
+                                            <img src="images/img-color-1.png" alt="" class="img-color-1">
+                                            <img src="images/img-color-2.png" alt="" class="img-color-2">
+                                            <img src="images/img-color-3.png" alt="" class="img-color-3">
+                                        </div>
+                                        <div class="col-6 img-action">
+                                            <img src="images/active-hover-2.png" alt="" class="img-action-1">
+                                            <img src="images/active-hover-3.png" alt="" class="img-action-2">    
+                                            <img src="images/active-hover-1.png" alt="" class="img-action-3">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <a href="" class="add-cart">ADD TO CART</a>
+                                    </div>
+                                </div>
+                        </div>
+                </div>
+                <div class="product">
+                <div class="box-shadow">
+                        <div class="img-div">
+                                <img src="images/pr-2.jpg" alt="" class="img-pr">
+                            </div>
+                            <p class="name">Jean Women Summer</p>
+                            <p class="price">$ 42.00</p>
+                            <div class="action">
+                                <div class="row">
+                                    <div class="col-6 color">
+                                        <img src="images/img-color-1.png" alt="" class="img-color-1">
+                                        <img src="images/img-color-2.png" alt="" class="img-color-2">
+                                        <img src="images/img-color-3.png" alt="" class="img-color-3">
+                                    </div>
+                                    <div class="col-6 img-action">
+                                        <img src="images/active-hover-2.png" alt="" class="img-action-1">
+                                        <img src="images/active-hover-3.png" alt="" class="img-action-2">    
+                                        <img src="images/active-hover-1.png" alt="" class="img-action-3">
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href="" class="add-cart">ADD TO CART</a>
+                                </div>
+                        </div>
+                </div>
+                </div>
+                <div class="product">
+                    <div class="box-shadow">
+                        <div class="img-div">
+                            <img src="images/pr-3.jpg" alt="" class="img-pr">
+                        </div>
+                        <p class="name">Jean Women Summer</p>
+                        <p class="price">$ 42.00</p>
+                        <div class="action">
+                            <div class="row">
+                                <div class="col-6 color">
+                                    <img src="images/img-color-1.png" alt="" class="img-color-1">
+                                    <img src="images/img-color-2.png" alt="" class="img-color-2">
+                                    <img src="images/img-color-3.png" alt="" class="img-color-3">
+                                </div>
+                                <div class="col-6 img-action">
+                                    <img src="images/active-hover-2.png" alt="" class="img-action-1">
+                                    <img src="images/active-hover-3.png" alt="" class="img-action-2">    
+                                    <img src="images/active-hover-1.png" alt="" class="img-action-3">
+                                </div>
+                            </div>
+                            <div>
+                                <a href="" class="add-cart">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="list-pr" id="kids">
+                <div class="product">
+                        <div class="box-shadow">
+                            <div class="img-div">
+                                    <img src="images/pr-1.jpg" alt="" class="img-pr">
+                                </div>
+                                <p class="name">Jean Women Summer</p>
+                                <p class="price">$ 42.00</p>
+                                <img src="images/sale.png" alt="" class="img-sale">
+                                <div class="action">
+                                    <div class="row">
+                                        <div class="col-6 color">
+                                            <img src="images/img-color-1.png" alt="" class="img-color-1">
+                                            <img src="images/img-color-2.png" alt="" class="img-color-2">
+                                            <img src="images/img-color-3.png" alt="" class="img-color-3">
+                                        </div>
+                                        <div class="col-6 img-action">
+                                            <img src="images/active-hover-2.png" alt="" class="img-action-1">
+                                            <img src="images/active-hover-3.png" alt="" class="img-action-2">    
+                                            <img src="images/active-hover-1.png" alt="" class="img-action-3">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <a href="" class="add-cart">ADD TO CART</a>
+                                    </div>
+                                </div>
+                        </div>
+                </div>
+                <div class="product">
+                <div class="box-shadow">
+                        <div class="img-div">
+                                <img src="images/pr-2.jpg" alt="" class="img-pr">
+                            </div>
+                            <p class="name">Jean Women Summer</p>
+                            <p class="price">$ 42.00</p>
+                            <div class="action">
+                                <div class="row">
+                                    <div class="col-6 color">
+                                        <img src="images/img-color-1.png" alt="" class="img-color-1">
+                                        <img src="images/img-color-2.png" alt="" class="img-color-2">
+                                        <img src="images/img-color-3.png" alt="" class="img-color-3">
+                                    </div>
+                                    <div class="col-6 img-action">
+                                        <img src="images/active-hover-2.png" alt="" class="img-action-1">
+                                        <img src="images/active-hover-3.png" alt="" class="img-action-2">    
+                                        <img src="images/active-hover-1.png" alt="" class="img-action-3">
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href="" class="add-cart">ADD TO CART</a>
+                                </div>
+                        </div>
+                </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="list-pr" id="accessories">
+                <div class="product">
+                        <div class="box-shadow">
+                            <div class="img-div">
+                                    <img src="images/pr-1.jpg" alt="" class="img-pr">
+                                </div>
+                                <p class="name">Jean Women Summer</p>
+                                <p class="price">$ 42.00</p>
+                                <img src="images/sale.png" alt="" class="img-sale">
+                                <div class="action">
+                                    <div class="row">
+                                        <div class="col-6 color">
+                                            <img src="images/img-color-1.png" alt="" class="img-color-1">
+                                            <img src="images/img-color-2.png" alt="" class="img-color-2">
+                                            <img src="images/img-color-3.png" alt="" class="img-color-3">
+                                        </div>
+                                        <div class="col-6 img-action">
+                                            <img src="images/active-hover-2.png" alt="" class="img-action-1">
+                                            <img src="images/active-hover-3.png" alt="" class="img-action-2">    
+                                            <img src="images/active-hover-1.png" alt="" class="img-action-3">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <a href="" class="add-cart">ADD TO CART</a>
+                                    </div>
+                                </div>
+                        </div>
+                </div>
+                <div class="product">
+                <div class="box-shadow">
+                        <div class="img-div">
+                                <img src="images/pr-2.jpg" alt="" class="img-pr">
+                            </div>
+                            <p class="name">Jean Women Summer</p>
+                            <p class="price">$ 42.00</p>
+                            <div class="action">
+                                <div class="row">
+                                    <div class="col-6 color">
+                                        <img src="images/img-color-1.png" alt="" class="img-color-1">
+                                        <img src="images/img-color-2.png" alt="" class="img-color-2">
+                                        <img src="images/img-color-3.png" alt="" class="img-color-3">
+                                    </div>
+                                    <div class="col-6 img-action">
+                                        <img src="images/active-hover-2.png" alt="" class="img-action-1">
+                                        <img src="images/active-hover-3.png" alt="" class="img-action-2">    
+                                        <img src="images/active-hover-1.png" alt="" class="img-action-3">
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href="" class="add-cart">ADD TO CART</a>
+                                </div>
+                        </div>
+                </div>
+                </div>
+                <div class="product">
+                    <div class="box-shadow">
+                        <div class="img-div">
+                            <img src="images/pr-3.jpg" alt="" class="img-pr">
+                        </div>
+                        <p class="name">Jean Women Summer</p>
+                        <p class="price">$ 42.00</p>
+                        <div class="action">
+                            <div class="row">
+                                <div class="col-6 color">
+                                    <img src="images/img-color-1.png" alt="" class="img-color-1">
+                                    <img src="images/img-color-2.png" alt="" class="img-color-2">
+                                    <img src="images/img-color-3.png" alt="" class="img-color-3">
+                                </div>
+                                <div class="col-6 img-action">
+                                    <img src="images/active-hover-2.png" alt="" class="img-action-1">
+                                    <img src="images/active-hover-3.png" alt="" class="img-action-2">    
+                                    <img src="images/active-hover-1.png" alt="" class="img-action-3">
+                                </div>
+                            </div>
+                            <div>
+                                <a href="" class="add-cart">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="list-pr" id="saleoff">
+                <div class="product">
+                        <div class="box-shadow">
+                            <div class="img-div">
+                                    <img src="images/pr-1.jpg" alt="" class="img-pr">
+                                </div>
+                                <p class="name">Jean Women Summer</p>
+                                <p class="price">$ 42.00</p>
+                                <img src="images/sale.png" alt="" class="img-sale">
+                                <div class="action">
+                                    <div class="row">
+                                        <div class="col-6 color">
+                                            <img src="images/img-color-1.png" alt="" class="img-color-1">
+                                            <img src="images/img-color-2.png" alt="" class="img-color-2">
+                                            <img src="images/img-color-3.png" alt="" class="img-color-3">
+                                        </div>
+                                        <div class="col-6 img-action">
+                                            <img src="images/active-hover-2.png" alt="" class="img-action-1">
+                                            <img src="images/active-hover-3.png" alt="" class="img-action-2">    
+                                            <img src="images/active-hover-1.png" alt="" class="img-action-3">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <a href="" class="add-cart">ADD TO CART</a>
+                                    </div>
+                                </div>
+                        </div>
+                </div>
+                <div class="product">
+                <div class="box-shadow">
+                        <div class="img-div">
+                                <img src="images/pr-2.jpg" alt="" class="img-pr">
+                            </div>
+                            <p class="name">Jean Women Summer</p>
+                            <p class="price">$ 42.00</p>
+                            <div class="action">
+                                <div class="row">
+                                    <div class="col-6 color">
+                                        <img src="images/img-color-1.png" alt="" class="img-color-1">
+                                        <img src="images/img-color-2.png" alt="" class="img-color-2">
+                                        <img src="images/img-color-3.png" alt="" class="img-color-3">
+                                    </div>
+                                    <div class="col-6 img-action">
+                                        <img src="images/active-hover-2.png" alt="" class="img-action-1">
+                                        <img src="images/active-hover-3.png" alt="" class="img-action-2">    
+                                        <img src="images/active-hover-1.png" alt="" class="img-action-3">
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href="" class="add-cart">ADD TO CART</a>
+                                </div>
+                        </div>
+                </div>
+                </div>
+                <div class="product">
+                    <div class="box-shadow">
+                        <div class="img-div">
+                            <img src="images/pr-3.jpg" alt="" class="img-pr">
+                        </div>
+                        <p class="name">Jean Women Summer</p>
+                        <p class="price">$ 42.00</p>
+                        <div class="action">
+                            <div class="row">
+                                <div class="col-6 color">
+                                    <img src="images/img-color-1.png" alt="" class="img-color-1">
+                                    <img src="images/img-color-2.png" alt="" class="img-color-2">
+                                    <img src="images/img-color-3.png" alt="" class="img-color-3">
+                                </div>
+                                <div class="col-6 img-action">
+                                    <img src="images/active-hover-2.png" alt="" class="img-action-1">
+                                    <img src="images/active-hover-3.png" alt="" class="img-action-2">    
+                                    <img src="images/active-hover-1.png" alt="" class="img-action-3">
+                                </div>
+                            </div>
+                            <div>
+                                <a href="" class="add-cart">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="box-shadow">
+                        <div class="img-div">
+                            <img src="images/product-4.png" alt="" class="img-pr">
+                        </div>
+                        <p class="name">Jean Women Summer</p>
+                        <p class="price">$ 42.00</p>
+                        <div class="action">
+                            <div class="row">
+                                <div class="col-6 color">
+                                    <img src="images/img-color-1.png" alt="" class="img-color-1">
+                                    <img src="images/img-color-2.png" alt="" class="img-color-2">
+                                    <img src="images/img-color-3.png" alt="" class="img-color-3">
+                                </div>
+                                <div class="col-6 img-action">
+                                    <img src="images/active-hover-2.png" alt="" class="img-action-1">
+                                    <img src="images/active-hover-3.png" alt="" class="img-action-2">    
+                                    <img src="images/active-hover-1.png" alt="" class="img-action-3">
+                                </div>
+                            </div>
+                            <div>
+                                <a href="" class="add-cart">ADD TO CART</a>
+                            </div>
+                        </div>
+                        <img src="images/new.png" alt="" class="img-news">
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
         </section>
 
         <!-- feature lookbook -->
        <section class="lookbook">
             <div class="gt-shop">
-                <p class="goto">GO TO SHOP</p>
+                <p class="goto"><a href="">GO TO SHOP</a></p>
                 <div class="line-goto"></div>
             </div>
             <div class="lk-img">

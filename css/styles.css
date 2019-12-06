@@ -364,8 +364,13 @@ ul.cate{
     color: black;
 }
 
-.list-pr{
+.list-pr.hide{
     margin-top: 50px;
+    display: none;
+}
+
+a.active{
+    color: black;
 }
 
 .product{
@@ -480,8 +485,16 @@ ul.cate{
     font-weight: bold;
     font-size: 12px;
     line-height: 32px;
-    color:  #898989;
     letter-spacing: 1px;
+}
+
+.goto a{
+    color:  #898989;
+}
+
+.goto a:hover{
+    color:  #898989;
+    text-decoration: none;
 }
 
 .line-goto{
