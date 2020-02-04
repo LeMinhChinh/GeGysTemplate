@@ -771,3 +771,23 @@ ol.carousel-indicators li {
 .carousel-indicators p{
     margin-bottom: 0;
 }
+
+.wl-product{
+    margin: 0 20px;
+}
+
+.img-wl{
+    height: 200px;
+}
+
+.showby{
+    padding: 10px 0 10px 10px;
+}
+
+.view-grid{
+    display: none;
+}
+
+.active-view{
+    display: block;
+}

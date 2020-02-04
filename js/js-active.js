@@ -17,4 +17,20 @@ $(document).ready(function(){
         var id = $(this).attr('href');
         $(id).removeClass('hide').siblings('div').addClass('hide');
     })
+
+    $('.showby input[type="radio"]').click(function() {
+        if($(this).attr('value') == "list"){
+            $('#list').show();
+            $('#grid').hide();
+        }
+        if($(this).attr('value') == "grid"){
+            $('#list').hide();
+            $('#grid').show();
+        }
+    });
+
+    $('#pagination-demo').twbsPagination({
+        totalPages: 10,
+        visiblePages: 5
+    });
 });
