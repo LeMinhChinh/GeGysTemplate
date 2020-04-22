@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $('.rp-click-map').click(function(e){
+        e.preventDefault();
+        $('.rp-popup-map').removeClass('rp-map-cancel');
+    })
+    $('.rp-cancel').click(function(e){
+        e.preventDefault();
+        $('.rp-popup-map').addClass('rp-map-cancel');
+    })
+})
