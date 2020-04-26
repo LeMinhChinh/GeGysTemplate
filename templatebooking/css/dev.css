@@ -6,7 +6,7 @@
     webkit-box-shadow: 0px 12px 15px rgba(36, 11, 12, 0.05);
     box-shadow: 0px 12px 15px rgba(36, 11, 12, 0.05);
 }
-.rp-main{
+.rp-main, .hotel-main, .room-main{
     padding: 50px 0;
 }
 .rp-title a,
@@ -560,6 +560,7 @@ p.r-time-title-text {
     padding-left: 20px;
     font-size: 20px;
     cursor: default;
+    font-weight: bolder;
 }
 
 p.r-time-title-icon {
@@ -597,4 +598,138 @@ i.fas.fa-angle-down {
 
 .booking-form form .select-option .nice-select span {
     text-transform: unset!important;
+}
+
+.r-filter-content .fix-section,
+.hotel-filter-content .fix-section{
+    margin: 30px 0!important;
+}
+
+.room-btn-booking button.btn.btn-primary,
+.room-btn-booking button.btn.btn-success {
+    width: 100%!important;
+    padding: 10px!important;
+    margin: 0!important;
+}
+
+.hotel-filter-content .r-filter-prices.r-people {
+    display: none;
+}
+
+.hotel-filter-content .form-group.form-check {
+    display: block!important;
+    width: 100%!important;
+}
+
+.main-active:focus {
+    color: red;
+}
+
+.hotel-notification{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.list-hotel .rp-name p{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4em;
+    color: #07c;
+}
+
+.list-hotel .rp-name a:hover,.list-hotel .rp-name a:focus{
+    color: #07c;
+}
+
+.list-hotel .rp-name small{
+    font-size: 75%;
+}
+
+.list-hotel .rp-description{
+    margin: 0;
+    max-height: 100px;
+    overflow-y: scroll;
+    padding-right: 15px;
+}
+
+.hotel-fb-user-number {
+    background: #003580;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    vertical-align: baseline;
+    border-radius: 6px 6px 6px 0;
+    height: 32px;
+    width: 32px;
+    min-width: 32px;
+}
+
+.hotel-fb-user-text-up{
+    color: #003580;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0 15px 0 0;
+    text-align: right;
+}
+
+.hotel-fb-user-text-down{
+    color: #707070;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    margin: 4px 15px 0 0;
+    text-align: right;
+}
+
+.hotel-fb-user-text, .hotel-fb-user-number{
+    float: right;
+}
+
+.sr__card_price {
+    line-height: 24px;
+}
+.bui-spacer--large {
+    margin-bottom: 16px!important;
+    text-align: right;
+}
+
+.sr__card_price span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #077812;
+    margin: 8px;
+}
+
+.hotel-fb-price{
+    position: relative;
+    height: 100%;
+}
+
+.hotel-avg-price{
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+    width: 100%;
+}
+
+.hotel-fb-price button.btn.btn-primary {
+    width: 100%;
+    margin: 0;
+}
+.list-hotel .rp-item-img img{
+    height: 285px!important;
 }
