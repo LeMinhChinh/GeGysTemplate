@@ -1,17 +1,31 @@
-/* Resting place */
-/* main.rp-main {
-    background-color: #f7f6f3;
-} */
 .menu-item{
     webkit-box-shadow: 0px 12px 15px rgba(36, 11, 12, 0.05);
     box-shadow: 0px 12px 15px rgba(36, 11, 12, 0.05);
 }
-.rp-main, .hotel-main, .room-main{
+.top-nav {
+    background: #003580!important;
+}
+
+.tn-left li, .top-social i.fa{
+    color: #fff!important;
+}
+
+.top-nav .tn-right .language-option span, i.fa.fa-angle-down{
+    color: #fff!important;
+    font-weight: 700;
+}
+
+.top-nav .tn-right .top-social a i.fa:hover{
+    color: #dfa974;
+}
+.rp-main, .hotel-main, .room-main, .personal-main{
     padding: 50px 0;
 }
 .rp-title a,
 .rp-title a:hover,
-.rp-main span{
+.rp-main span,
+.room-main span,
+.hotel-main span{
     text-decoration: none;
     padding-right: 15px;
 }
@@ -34,7 +48,8 @@ p.bk-title {
 .rp-content {
     padding-top: 15px;
 }
-.rp-content .booking-form{
+.rp-content .booking-form,
+.personal-main .booking-form{
     padding: 0!important;
 }
 .rp-content input{
@@ -732,4 +747,93 @@ i.fas.fa-angle-down {
 }
 .list-hotel .rp-item-img img{
     height: 285px!important;
+}
+
+main.personal-main{
+    background: #fff!important;
+}
+
+.personal-main .nav-item {
+   width: 25%;
+   text-align: center;
+}
+
+.personal-main a.nav-link {
+    color: #000!important;
+}
+
+a.nav-link.active{ 
+    color: #38c!important;
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: transparent!important;
+}
+
+.nav-tabs .nav-link.active:hover {
+    border-width: 1px;
+    border-style: solid;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    border-color: #dee2e6 #dee2e6 #fff #dee2e6!important;
+}
+
+.ps-welcome-left{
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+img.ps-left-img {
+    border-radius: 50%;
+    border: 3px solid #fff;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ps-left-info {
+    display: inline-block;
+    display: inline-block;
+    max-width: 180px;
+    margin-left: 5px;
+    vertical-align: middle;
+}
+
+.ps-left-info a {
+    font-size: 13px;
+}
+
+p.ps-left-name {
+    font-size: 20px;
+    font-weight: normal;
+}
+.ps-left-info a:hover, .ps-left-add-content a:hover{
+    color: #007bff;
+}
+
+.ps-left-notifi {
+    background: #f7f7f7;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px 0 0 0;
+}
+
+.ps-left-add-icon i{
+    color: #007bff;
+    cursor: pointer;
+}
+
+.ps-left-add-icon, .ps-left-add-content{
+    display: inline;
+}
+
+.ps-left-add-content a{
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.ps-left-add-content p {
+    padding-left: 26px;
+    font-size: 13px;
 }
